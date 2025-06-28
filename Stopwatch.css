@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#mainbox{
+    height: 35rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(92, 134, 55);
+}
+#headbox{
+    font-size: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e63946;
+    background-color: beige;
+    font-style: italic;
+}
+#App{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: beige;
+    margin: 0.4rem;
+    border-radius: 2rem;
+}
+#butbox{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+#hr,#min,#sec{
+    border: 2px solid grey;
+    border-radius: 1rem; 
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    background-color: whitesmoke;
+}
+#timebox{
+    display: flex;
+}
+#b1, #b2, #b3{
+    color: beige;
+    background-color: #e63946;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    padding: 0.5rem;
+}
