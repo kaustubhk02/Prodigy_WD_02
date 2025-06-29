@@ -44,6 +44,15 @@ body{
     padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     background-color: whitesmoke;
 }
+#s1,#s2,#s3{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    width:2.5rem;
+    text-align: center;
+}
 #timebox{
     display: flex;
 }
